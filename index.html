@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>نظام إدارة مزرعة البطاطس - نسخة جاهزة</title>
+<style>
+  body{font-family:Cairo, sans-serif;margin:0;padding:0;background:#fff;color:#111}
+  header{background:#2F5D2C;color:#fff;padding:12px}
+  main{padding:12px}
+  .card{background:#F8F8F8;padding:12px;margin-bottom:12px;border-radius:12px}
+</style>
+</head>
+<body>
+<header>
+  <h2>نظام إدارة محصول البطاطس</h2>
+</header>
+<main>
+  <div class="card">
+    <h3>Dashboard</h3>
+    <p>الصفحة الرئيسية جاهزة.</p>
+  </div>
+  <div class="card">
+    <h3>مهندس</h3>
+    <p>إضافة عمليات ورفع صور.</p>
+  </div>
+  <div class="card">
+    <h3>استشاري</h3>
+    <p>إرسال توصيات وتنبيهات.</p>
+  </div>
+  <div class="card">
+    <h3>مدير</h3>
+    <p>إدارة المستخدمين والمواسم.</p>
+  </div>
+  <div class="card">
+    <h3>تنبيهات</h3>
+    <p>مركز التنبيهات.</p>
+  </div>
+<script type="module">
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+
+// Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBb8WiNVdbDOLz2PtbdNQtwWHGZizFwL-Q",
+  authDomain: "potatofarmapp.firebaseapp.com",
+  projectId: "potatofarmapp",
+  storageBucket: "potatofarmapp.firebasestorage.app",
+  messagingSenderId: "929271812080",
+  appId: "1:929271812080:web:eb2641127b425a5d061735",
+  measurementId: "G-5KLH54Z5KE"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+</script>
+</main>
+</body>
+</html>
